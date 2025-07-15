@@ -6,14 +6,14 @@
 #include <epd.h>
 
 // WiFi Credentials
-const char* ssid = "Babu";
-const char* password = "Babu123456789";
+const char* ssid = "YOUR_SSID";
+const char* password = "YOUR_PASSWORD";
 
 // API Key
-const char* apiKey = "20dd189388362a7e163c6526ca6ed9da";
+const char* apiKey = "YOUR_WEATHER_API";
 
 // API URLs
-const char* newsAPI = "https://api.thenewsapi.com/v1/news/top?api_token=2y7F00idNjzuNte7ryz0QzpxCZWCXagLsLuEvEag&locale=in";
+const char* newsAPI = "https://api.thenewsapi.com/v1/news/top?api_token=YOUR_NEWS_API&locale=YOUR_LOCATION";
 const char* poemAPI = "https://poetrydb.org/random";
 const char* thoughtAPI = "https://zenquotes.io/api/today";
 const char* geoAPI = "http://ip-api.com/json";
